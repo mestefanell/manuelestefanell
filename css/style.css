@@ -1,0 +1,67 @@
+  	html {
+    	width: 100%;
+    	height: 100%;
+  	}
+
+  	body {
+    	font-family: 'Muli', sans-serif;
+    	font-size: 13px;
+    	padding: 0;
+    	margin: 0;
+    	background-image: url('../imgs/inicio.png');
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center center;
+    	color: grey;
+  	}
+
+  	canvas {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+  	}
+
+  	a {
+    	color: #fff;
+    	text-decoration: none;
+    	cursor: pointer;
+  	}
+
+  	.btn {
+    	background-color: #2D77F7;
+    	padding: 10px 20px;
+    	border-radius: 20px;
+  	}
+
+  	h1 {
+    	color: #fff;
+    	margin-bottom: 30px;
+	    letter-spacing: 1px;
+	    font-size: 40px;
+  	}
+
+  	h2 {
+    	margin-bottom: 70px;
+    	line-height: 1.8;
+    	color: #acbbce;
+  	}
+
+  	.container {
+    	position: absolute;
+    	width: 480px;
+    	height: 181px;
+    	top: 0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	margin: auto;
+    	text-align: center;
+    	z-index: 100;
+  	}
+
+  	.photo-copyright {
+    	position: absolute;
+    	left: 30px;
+    	bottom: 30px;
+    	z-index: 100;
+  	}
